@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 gemspec
 
-# gem "github-pages", group: :jekyll_plugins unless Gem.win_platform?
+gem "github-pages", group: :jekyll_plugins unless Gem.win_platform?
 gem "jekyll-include-cache", group: :jekyll_plugins
 gem "faraday-retry", group: :jekyll_plugins
 gem "jekyll-paginate", group: :jekyll_plugins
