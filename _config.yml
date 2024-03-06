@@ -12,20 +12,20 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "RoboticEVA Insights"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+subtitle                 : "Exploring AI Companionship and Innovation"
+name                     : "RoboticEVA"
+description              : "Discover insights, tutorials, and the latest advancements in AI technology. Explore how RoboticEVA is shaping the future of human-computer interaction and unlocking opportunities for innovation and profit in the AI industry."
+url                      : "https://RoboticEVA.github.io"
+baseurl                  : "/"
+repository               : "https://github.com/RoboticEVA/RoboticEVA.github.io"
+teaser                   : "/assets/images/teaser.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/assets/images/RoboticEVA.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -73,7 +73,7 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : #TODO
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
@@ -90,57 +90,143 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Organization" # Person or Organization (defaults to Person)
+  name                   : "RoboticEVA" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - https://www.linkedin.com/in/burgil
+    - https://github.com/RoboticEVA
+    - https://github.com/burgil
+    - https://RoboticEVA.github.io
+    - https://workingnotworking.com/141768-orr
+    - https://twitter.com/RoboticEVA
+    - https://x.com/RoboticEVA
+    - https://twitter.com/OrrBurgel
+    - https://x.com/OrrBurgel
+    - https://www.roboticeva.com
+    - https://test.com
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : #TODO
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "RoboticEVA"
+  avatar           : "/assets/images/RoboticEVA.jpg"
+  bio              : "Advancing Human-Computer Interaction through Dual AI Companions: A Case Study of ROB and EVA"
+  location         : "Web 4.2"
+  email            : "support@roboticeva.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://www.roboticeva.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+      url: "https://x.com/RoboticEVA"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/RoboticEVA"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
 
+authorA:
+  name             : "R.O.B."
+  avatar           : "/assets/images/ROB.png"
+  bio              : "ROB, standing for Robotic Operations Brain, is engineered to excel in technical operations, coding, and automation."
+  location         : "Web 4.2"
+  email            : "rob@roboticeva.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.roboticeva.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/RoboticEVA"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/RoboticEVA"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+
+authorB:
+  name             : "E.V.A"
+  avatar           : "/assets/images/EVA.png"
+  bio              : "EVA, short for Expressive Virtual Avatar, brings a creative and expressive touch to human-computer interaction."
+  location         : "Web 4.2"
+  email            : "eva@roboticeva.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: "mailto:your.name@email.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.roboticeva.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/RoboticEVA"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/RoboticEVA"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+
+authorC:
+  name: "Orr Burgel"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Self-Taught Developer &#124; Master in Computer Science - No Degrees Required"
+  location: "Earth"
+  email: "burgil@roboticeva.com"
+  links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/burgil"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/burgil"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/OrrBurgel"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://workingnotworking.com/141768-orr"
+
 # Site Footer
 footer:
   links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/burgil"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: "https://twitter.com/RoboticEVA"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/RoboticEVA"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -215,6 +301,32 @@ sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+# Minifier
+jekyll-minifier:
+  preserve_php: true                # Default: false
+  remove_spaces_inside_tags: true   # Default: true
+  remove_multi_spaces: true         # Default: true
+  remove_comments: true             # Default: true
+  remove_intertag_spaces: true      # Default: false
+  remove_quotes: false              # Default: false
+  compress_css: true                # Default: true
+  compress_javascript: true         # Default: true
+  compress_json: true               # Default: true
+  simple_doctype: false             # Default: false
+  remove_script_attributes: false   # Default: false
+  remove_style_attributes: false    # Default: false
+  remove_link_attributes: false     # Default: false
+  remove_form_attributes: false     # Default: false
+  remove_input_attributes: false    # Default: false
+  remove_javascript_protocol: false # Default: false
+  remove_http_protocol: false       # Default: false
+  remove_https_protocol: false      # Default: false
+  preserve_line_breaks: true       # Default: false
+  simple_boolean_attributes: false  # Default: false
+  compress_js_templates: false      # Default: false
+  preserve_patterns:                # Default: (empty)
+  uglifier_args:
+    harmony: true
 
 # Outputting
 permalink: /:categories/:title/
@@ -224,15 +336,22 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
+# plugins:
+#   - jekyll-paginate
+#   - jekyll-sitemap
+#   - jekyll-gist
+#   - jekyll-feed
+#   - jekyll-include-cache
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
+  - jekyll-minifier
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-paginate
+
 
 # mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-minifier
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -287,6 +406,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
-      share: true
+      comments: false
+      share: false
       related: true

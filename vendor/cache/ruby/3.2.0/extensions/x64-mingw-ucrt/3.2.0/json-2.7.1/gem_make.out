@@ -1,0 +1,16 @@
+current directory: C:/Users/Burgil/Desktop/RoboticEVA.github.io/vendor/cache/ruby/3.2.0/gems/json-2.7.1/ext/json
+A:/Ruby32-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Users/Burgil/Desktop/RoboticEVA.github.io/vendor/cache/ruby/3.2.0/gems/json-2.7.1/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240306-7332-fyb1xz sitelibdir\=./.gem.20240306-7332-fyb1xz clean
+
+current directory: C:/Users/Burgil/Desktop/RoboticEVA.github.io/vendor/cache/ruby/3.2.0/gems/json-2.7.1/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240306-7332-fyb1xz sitelibdir\=./.gem.20240306-7332-fyb1xz
+make: Nothing to be done for 'all'.
+
+current directory: C:/Users/Burgil/Desktop/RoboticEVA.github.io/vendor/cache/ruby/3.2.0/gems/json-2.7.1/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240306-7332-fyb1xz sitelibdir\=./.gem.20240306-7332-fyb1xz install
+
+current directory: C:/Users/Burgil/Desktop/RoboticEVA.github.io/vendor/cache/ruby/3.2.0/gems/json-2.7.1/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240306-7332-fyb1xz sitelibdir\=./.gem.20240306-7332-fyb1xz clean
