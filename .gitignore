@@ -35,3 +35,5 @@ vendor
 .env
 **/.idea/**
 __pycache__
+
+_posts/2024-03-05-example.md
