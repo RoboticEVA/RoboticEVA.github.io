@@ -336,17 +336,15 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
-# plugins:
-#   - jekyll-sitemap
-#   - jekyll-gist
-#   - jekyll-feed
 plugins:
   - jekyll-minifier
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-seo-tag
-
+#   - jekyll-sitemap
+#   - jekyll-gist
+#   - jekyll-feed
 
 # mimic GitHub Pages with --safe
 whitelist:
