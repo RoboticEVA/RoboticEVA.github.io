@@ -116,6 +116,7 @@ analytics:
 # Site Author
 author:
   name             : "RoboticEVA"
+  type             : "Organization"
   avatar           : "/assets/images/RoboticEVA.jpg"
   bio              : "Advancing Human-Computer Interaction through Dual AI Companions: A Case Study of ROB and EVA"
   location         : "Web 4.2"
