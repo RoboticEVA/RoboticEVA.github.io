@@ -342,7 +342,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-minifier
+# - jekyll-minifier
 #   - jekyll-sitemap
 #   - jekyll-gist
 #   - jekyll-feed
@@ -355,7 +355,7 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-seo-tag
-  - jekyll-minifier
+# - jekyll-minifier
 
 
 # Archives
