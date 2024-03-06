@@ -27,3 +27,11 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+vendor
+.jekyll-cache/**
+.bundle/**
+.bundle/config
+**/.DS_Store
+.env
+**/.idea/**
+__pycache__
