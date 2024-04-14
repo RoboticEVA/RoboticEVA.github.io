@@ -22,3 +22,10 @@
     background: linear-gradient(to bottom, #5785e3b3, #4e1ce69e);
     border-radius: 0.3em;
 }
+
+@for $i from 1 through 3 {
+    [itemtype="https://schema.org/Person"]:nth-child(#{$i}) {
+        position: relative;
+        z-index: #{24 - $i};
+    }
+ }
